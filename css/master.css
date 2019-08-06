@@ -1,0 +1,159 @@
+body{
+    margin-block: 0;
+    padding: 0;
+}
+header {
+    background: #323333;
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+.header {
+    justify-content: center;
+}
+
+header .row {
+    min-height: 70vh;
+}
+
+header .title p {
+    color: #088c9b;
+    padding: 10px 0 0 25px;
+    font-size: 25px;
+    margin-bottom: 0rem;
+}
+.navbar-nav{
+    padding: 0;
+}
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #088c9b;
+}
+/* .header{
+    padding: 600px;
+} */
+.header .row{
+    height: 40vh;
+}
+.header h3 {
+    color: #088c9b;
+    font-size: 50px;
+
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 90px;
+}
+
+.header p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.info {
+    background: #F1F0F0;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 50vh;
+    background-blend-mode: darken;
+}
+.info .row{
+    min-height: 40vh;
+}
+.info h3 {
+    color: #015761;
+    font-size: 40px;
+}
+
+.show h1 {
+    color: #015761;
+    font-size: 70px;
+}
+
+header img {
+  max-width: 100%;
+    display: block;
+    height: 850px;
+}
+
+.ph-title h1 {
+    color: #015761;
+    font-size: 70px;
+}
+
+.contact {
+    background: #323333;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 70vh;
+    
+}
+
+.contact img {
+    background: #10d6d6 url(../images/shakim11.jpg);
+    display: block;
+    width: 880px;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 70vh;
+    background-blend-mode: darken;
+}
+.upper-photo{
+    display: block;
+    max-width: 100%;
+    margin-bottom:30px;
+    
+
+}
+.upper-photo img{
+    display: block;
+    /* width: 750px; */
+    max-width: 100%;
+     -webkit-filter: grayscale(100%);
+     /* Safari 6.0 - 9.0 */
+     filter: grayscale(100%);
+    
+}
+.bottom-photo{
+    margin-bottom:80px;
+}
+.bottom-photo img{
+     display: block;
+     /* width: 1000px; */
+     max-width: 100%;
+      -webkit-filter: grayscale(100%);
+      /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+}
+footer .row {
+    min-height: 15vh;
+}
+
+.contact h1 {
+    color: #015761;
+    font-size: 80px;
+}
+
+.contact h5 {
+    color: #fff;
+        font-size: 35px;
+}
+
+.contact strong {
+    color: #fff;
+        font-size: 25px;
+}
+
+.contact p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.contact .bottom{
+    padding-left: 200px;
+}
